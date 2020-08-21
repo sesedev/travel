@@ -1,4 +1,4 @@
-# travel-test
+# travel
 
 ## Project setup
 ```
