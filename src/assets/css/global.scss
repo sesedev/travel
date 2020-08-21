@@ -1,0 +1,33 @@
+
+html {
+  -webkit-tap-highlight-color: transparent;
+    font-size: calc(13.33333333vw);
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 62px;
+  }
+}
+
+body {
+  margin: 0;
+  color: #333;
+}
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.clearfix{
+  &::after {
+    display: table;
+    clear: both;
+    content: '';
+  }
+}
